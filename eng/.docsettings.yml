@@ -56,6 +56,22 @@ known_presence_issues:
   - ['sdk/graphrbac/Microsoft.Azure.Graph.RBAC','#5499']
   - ['sdk/search','#5499']
   - ['sdk/cognitiveservices/InkRecognizer','#5499']
+  - ['sdk/batch/Microsoft.Azure.Batch/Tools','#5499']
+  - ['sdk/eventhub/Microsoft.Azure.EventHubs.ServiceFabricProcessor','#5499']
+  - ['sdk/keyvault/Microsoft.Azure.KeyVault.Cryptography','#5499']
+  - ['sdk/search/Microsoft.Azure.Search.Common','#5499']
+  - ['sdk/search/Microsoft.Azure.Search','#5499']
+  - ['sdk/keyvault/Microsoft.Azure.KeyVault.WebKey','#5499']
+  - ['sdk/cognitiveservices/InkRecognizer.WPF.Stroke','#5499']
+  - ['sdk/eventhub/Microsoft.Azure.EventHubs.Processor','#5499']
+  - ['sdk/batch/Microsoft.Azure.Batch/Tools','#5499']
+  - ['sdk/batch/Microsoft.Azure.Batch/Tools','#5499']
+  - ['sdk/search/Microsoft.Azure.Search.Data','#5499']
+  - ['sdk/keyvault/Microsoft.Azure.KeyVault.Extensions','#5499']
+  - ['sdk/cognitiveservices/InkRecognizer.UWP.Stroke','#5499']
+  - ['sdk/search/Microsoft.Azure.Search.Service','#5499']
+  - ['sdk/keyvault/Microsoft.Azure.KeyVault.Core','#5499']
+
 
 known_content_issues:
   - ['README.md','Root readme']
