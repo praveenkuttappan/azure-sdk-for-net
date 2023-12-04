@@ -88,5 +88,20 @@ namespace Azure.Template
                 throw;
             }
         }
+
+        public virtual Response<SecretBundle> GetSecretTest(string secretName, CancellationToken cancellationToken = default)
+        {
+            using var scope = _clientDiagnostics.CreateScope("MiniSecretClient.GetSecret");
+            scope.Start();
+            try
+            {
+                return RestClient.GetSecret(secretName, cancellationToken);
+            }
+            catch (Exception e)
+            {
+                scope.Failed(e);
+                throw;
+            }
+        }
     }
 }
